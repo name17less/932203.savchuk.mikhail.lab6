@@ -1,0 +1,61 @@
+body
+{
+    margin: 0px;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+main
+{
+    align-items: center;
+}
+
+.main_container
+{
+    background-color: black;
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.regular_button
+{
+    border: 1px solid black;
+    flex: 0 1 34%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.buttons_container
+{
+    width: 100%;
+    display: flex;
+}
+
+.image_container
+{
+    display: flex;
+    height: 100%;
+}
+
+.dog
+{
+    background-color: green;
+    flex: 0 1 50%;
+    padding: 15px;
+}
+
+.cat
+{
+    background-color: blue;
+    flex: 0 1 50%;
+    padding: 15px;
+}
+
+img
+{
+    width: 100%;
+    height: 70%;
+}
